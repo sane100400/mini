@@ -66,7 +66,10 @@ const bannerOffsetByPosition = {
 };
 const bannerOffset =
 	bannerOffsetByPosition[siteConfig.banner.position || "center"];
+const canonicalUrl = Astro.url.toString();
+const defaultOgImageUrl = new URL(url("/og-image.jpg"), Astro.site).toString();
 const rssUrl = new URL(url("/rss.xml"), Astro.site).toString();
+const googleSiteVerification = import.meta.env.PUBLIC_GOOGLE_SITE_VERIFICATION;
 ---
 
 <!DOCTYPE html>
@@ -80,11 +83,20 @@ const rssUrl = new URL(url("/rss.xml"), Astro.site).toString();
 		<meta charset="UTF-8" />
 		<meta name="description" content={description || pageTitle}>
 		<meta name="author" content={profileConfig.name}>
+		<meta name="robots" content="index, follow">
+		{googleSiteVerification && (
+			<meta name="google-site-verification" content={googleSiteVerification}>
+		)}
+		<link rel="canonical" href={canonicalUrl}>
 
 		<meta property="og:site_name" content={siteConfig.title}>
-		<meta property="og:url" content={Astro.url}>
+		<meta property="og:url" content={canonicalUrl}>
 		<meta property="og:title" content={pageTitle}>
 		<meta property="og:description" content={description || pageTitle}>
+		<meta property="og:image" content={defaultOgImageUrl}>
+		<meta property="og:image:width" content="1200">
+		<meta property="og:image:height" content="630">
+		<meta property="og:locale" content="ko_KR">
 		{setOGTypeArticle ? (
         <meta property="og:type" content="article" />
         ) : (
@@ -92,9 +104,10 @@ const rssUrl = new URL(url("/rss.xml"), Astro.site).toString();
         )}
 
 		<meta name="twitter:card" content="summary_large_image">
-		<meta property="twitter:url" content={Astro.url}>
+		<meta property="twitter:url" content={canonicalUrl}>
 		<meta name="twitter:title" content={pageTitle}>
 		<meta name="twitter:description" content={description || pageTitle}>
+		<meta name="twitter:image" content={defaultOgImageUrl}>
 
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
