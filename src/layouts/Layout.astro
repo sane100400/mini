@@ -95,6 +95,7 @@ const pageImageWidth = imageWidth || 1200;
 const pageImageHeight = imageHeight || 630;
 const rssUrl = new URL(url("/rss.xml"), Astro.site).toString();
 const googleSiteVerification = import.meta.env.PUBLIC_GOOGLE_SITE_VERIFICATION;
+const googleAdSenseClient = "ca-pub-6576662227364720";
 const robotsContent =
 	"index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1";
 const websiteJsonLd = {
@@ -163,6 +164,7 @@ const websiteJsonLd = {
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<script is:inline type="application/ld+json" set:html={JSON.stringify(websiteJsonLd)}></script>
+		<script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${googleAdSenseClient}`} crossorigin="anonymous"></script>
 		{favicons.map(favicon => (
 			<link rel="icon"
 				  href={favicon.src.startsWith('/') ? url(favicon.src) : favicon.src}
