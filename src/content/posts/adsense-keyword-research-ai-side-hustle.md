@@ -1,5 +1,5 @@
 ---
-title: "AI 부업 글감이 안 떠오를 때 내가 보는 것들"
+title: "AI 부업 블로그 글감 찾는 법: Outlier·애드센스·바이브 코딩"
 published: 2026-06-08
 updated: 2026-06-10
 description: "키워드 도구만 보다가 글이 막혔을 때, Outlier·AdSense·바이브 코딩 질문을 글감으로 바꾼 방식."

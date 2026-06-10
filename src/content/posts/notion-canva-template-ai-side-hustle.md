@@ -1,5 +1,5 @@
 ---
-title: "Notion·Canva 템플릿, 만들기 전에 팔릴 장면부터 봤다"
+title: "Notion·Canva 템플릿 판매 부업, 만들기 전 정해야 할 사용 장면"
 published: 2026-06-02
 updated: 2026-06-10
 description: "템플릿을 많이 만들기 전에 한국어 사용 장면, 예시 데이터, 판매 페이지 문구부터 좁혀본 기록."

@@ -1,5 +1,5 @@
 ---
-title: "애드센스 승인만 나면 돈 들어올까? 해외 후기는 달랐다"
+title: "애드센스 승인 후 수익 현실, 해외 후기와 RPM 기준으로 보기"
 published: 2026-06-10
 description: "승인 직후 수익이 얼마나 나오는지 Reddit 후기와 Google RPM 기준으로 현실적인 기대치를 잡아봤다."
 image: "./images/google-adsense-start-screen.jpg"

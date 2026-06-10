@@ -1,5 +1,5 @@
 ---
-title: "Outlier로 진짜 돈 벌 수 있나? 가입 전에 봐야 할 현실"
+title: "Outlier AI 부업 가입 전 확인할 것: 일감·심사·한국어 작업"
 published: 2026-06-10
 updated: 2026-06-10
 description: "Outlier, DataAnnotation, Alignerr, Mindrift를 가입 전에 볼 때 확인해야 할 일감, 심사, 한국어 가능성."
