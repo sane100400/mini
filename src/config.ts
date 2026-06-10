@@ -9,7 +9,7 @@ import { LinkPreset } from "./types/config";
 
 export const siteConfig: SiteConfig = {
 	title: "세인의 AI 실험실",
-	subtitle: "재택 AI 부업 실험 로그",
+	subtitle: "재택 AI 부업 직접 확인 노트",
 	lang: "ko", // Language code, e.g. 'en', 'zh_CN', 'ja', etc.
 	themeColor: {
 		hue: 345, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
@@ -55,7 +55,7 @@ export const navBarConfig: NavBarConfig = {
 export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/profile.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 	name: "세인님",
-	bio: "재택 AI 부업 실험 로그",
+	bio: "재택 AI 부업 직접 확인 노트",
 	links: [
 		{
 			name: "Email",
