@@ -1,8 +1,8 @@
 ---
-title: "Outlier 궁금해서 비슷한 플랫폼까지 같이 봤다"
+title: "Outlier로 진짜 돈 벌 수 있나? 가입 전에 봐야 할 현실"
 published: 2026-06-10
 updated: 2026-06-10
-description: "Outlier, DataAnnotation, Alignerr, Mindrift를 집에서 하는 AI 부업 후보로 볼 때 확인할 단가, 심사, 한국어 가능성, 일감 리스크."
+description: "Outlier, DataAnnotation, Alignerr, Mindrift를 가입 전에 볼 때 확인해야 할 일감, 심사, 한국어 가능성."
 image: "./images/outlier-opportunities-screen.jpg"
 tags: ["Outlier", "AI부업", "재택부업", "플랫폼비교"]
 category: "재택부업"
@@ -11,6 +11,11 @@ category: "재택부업"
 Outlier 같은 AI 트레이닝 플랫폼은 재택 부업 후보로 자주 거론된다. 집에서 할 수 있고, AI 학습 데이터나 평가 작업을 맡는다는 설명도 그럴듯하다. 하지만 한국인이 보기에는 먼저 확인해야 할 것이 많다.
 
 이 글은 플랫폼을 추천하는 글이 아니다. Outlier, DataAnnotation, Alignerr, Mindrift를 볼 때 어떤 순서로 판단할지 정리한 글이다. 특히 "가입하면 바로 돈을 번다"는 식으로 보지 않으려고 한다. 이런 플랫폼은 심사와 대기 시간이 있고, 지역과 전문 분야에 따라 체감이 크게 달라진다. ⚠️
+
+> ⚠️ **가입 전에 먼저 확인할 것**
+> - 지금 보이는 일감이 있는지 확인한다.
+> - 한국어 작업만 기다릴지, 영어 작업도 볼지 정한다.
+> - 심사나 코딩 테스트가 있으면 포트폴리오부터 준비한다.
 
 | 먼저 볼 기준 | 확인할 질문 |
 | --- | --- |

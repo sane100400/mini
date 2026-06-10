@@ -1,8 +1,8 @@
 ---
-title: "글감은 키워드보다 막히는 순간에서 나왔다"
+title: "AI 부업 글감이 안 떠오를 때 내가 보는 것들"
 published: 2026-06-08
 updated: 2026-06-10
-description: "Outlier 후기, DataAnnotation 코딩, 바이브 코딩 외주처럼 검색자가 실제로 궁금해하는 질문을 글감으로 바꾸는 방식."
+description: "키워드 도구만 보다가 글이 막혔을 때, Outlier·AdSense·바이브 코딩 질문을 글감으로 바꾼 방식."
 image: "./images/analytics-dashboard.jpg"
 tags: ["AdSense", "SEO", "AI부업", "Outlier", "바이브코딩"]
 category: "애드센스"
@@ -15,6 +15,11 @@ category: "애드센스"
 ![검색 흐름을 확인하는 분석 화면](./images/analytics-dashboard.jpg)
 
 _참고자료 사진: 키워드 숫자보다 검색자가 어떤 흐름으로 이동하는지 먼저 본다._
+
+> 🔎 **글감이 막혔을 때 보는 순서**
+> - 검색량보다 사람들이 어디서 막히는지 먼저 본다.
+> - 플랫폼 이름 하나에서 심사, 단가, 포트폴리오 질문을 나눈다.
+> - 공식 화면이나 마켓 화면을 보고 글의 근거를 붙인다.
 
 | 큰 키워드 | 그대로 쓰면 생기는 문제 | 글감으로 바꾼 질문 |
 | --- | --- | --- |
