@@ -1,5 +1,5 @@
 ---
-title: "Outlier 같은 AI 부업 플랫폼, 한국인이 보기 전에 비교할 것"
+title: "Outlier 궁금해서 비슷한 플랫폼까지 같이 봤다"
 published: 2026-06-10
 updated: 2026-06-10
 description: "Outlier, DataAnnotation, Alignerr, Mindrift를 집에서 하는 AI 부업 후보로 볼 때 확인할 단가, 심사, 한국어 가능성, 일감 리스크."

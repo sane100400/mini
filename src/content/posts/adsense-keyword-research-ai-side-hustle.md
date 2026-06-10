@@ -1,5 +1,5 @@
 ---
-title: "AI 부업 블로그 글감은 사람들이 막히는 지점에서 나온다"
+title: "글감은 키워드보다 막히는 순간에서 나왔다"
 published: 2026-06-08
 updated: 2026-06-10
 description: "Outlier 후기, DataAnnotation 코딩, 바이브 코딩 외주처럼 검색자가 실제로 궁금해하는 질문을 글감으로 바꾸는 방식."

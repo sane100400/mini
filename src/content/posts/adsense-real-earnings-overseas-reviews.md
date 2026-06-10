@@ -1,5 +1,5 @@
 ---
-title: "애드센스 승인 후 바로 돈이 될까? 해외 후기 숫자로 현실 잡기"
+title: "애드센스 승인되면 바로 돈 벌까?"
 published: 2026-06-10
 description: "Reddit 해외 애드센스 후기와 Google 공식 RPM 기준을 보고, 승인 직후 수익 기대치를 현실적으로 잡아본 기록."
 image: "./images/google-adsense-start-screen.jpg"

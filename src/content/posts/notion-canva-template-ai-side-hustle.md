@@ -1,5 +1,5 @@
 ---
-title: "Notion·Canva 템플릿 판매는 한국어 사용 장면부터 잡는다"
+title: "Notion·Canva 템플릿은 어디에 써먹힐까"
 published: 2026-06-02
 updated: 2026-06-10
 description: "AI로 템플릿을 많이 만드는 것보다 한국인이 실제로 쓰는 상황을 먼저 정해야 팔리는 이유."
