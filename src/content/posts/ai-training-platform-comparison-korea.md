@@ -1,5 +1,5 @@
 ---
-title: "AI 데이터 라벨링 부업 팁, Outlier·DataAnnotation 한국어 작업 조건 확인"
+title: "AI 데이터 라벨링 부업 팁, Outlier·DataAnnotation 한국어 작업 전 확인한 것"
 published: 2026-06-10
 updated: 2026-06-10
 description: "Outlier, DataAnnotation, Alignerr, Mindrift 화면을 직접 보며 공개 일감, 심사, 한국어 작업, 코딩 여부를 차분히 따져본 후기."
@@ -20,7 +20,7 @@ Outlier, DataAnnotation, Alignerr 같은 AI 트레이닝 플랫폼을 처음 보
 | 전문성 | 코딩, 법률, 의료, 수학 같은 분야가 있으면 선택지가 넓어진다 |
 | 정산 | 시간, 환율, 입금 기록을 남길 표를 준비한다 |
 
-## Outlier는 공개 기회부터 본다
+## Outlier는 현재 열린 작업부터 확인했다
 
 상단 대표 이미지는 Outlier 공개 기회 화면을 직접 캡처했다. 2026년 6월 10일 캡처 기준으로 공개 기회 수가 0으로 표시됐다. 이 숫자 하나로 플랫폼 전체를 판단할 수는 없다. 다만 "가입하면 누구나 바로 시작한다"고 말하기는 어렵다.
 
