@@ -1,5 +1,6 @@
 # build output
 dist/
+_workspace/
 
 # generated types
 .astro/

@@ -1,6 +1,6 @@
 ---
 title: "AI 부업 포트폴리오는 결과물 3개로 시작한다"
-published: 2026-06-09
+published: 2026-06-07
 description: "재택 프리랜서 일을 구할 때 필요한 포트폴리오를 블로그 글, 숏폼 대본, 상세페이지 문구로 작게 만드는 방법."
 image: "./images/content-desk.jpg"
 tags: ["AI부업", "포트폴리오", "Freelance", "재택부업"]
