@@ -1,5 +1,5 @@
 ---
-title: "AI 부업 블로그 30일, 글 개수보다 질문을 쌓는 순서"
+title: "AI 부업 블로그 30일 운영표로 첫 달 글과 샘플을 남겼다"
 published: 2026-06-03
 updated: 2026-06-10
 description: "AI 부업 블로그를 30일 동안 운영할 때 플랫폼 화면, 납품물, 포트폴리오, 애드센스 점검을 어떤 순서로 쌓을지 정리한 표."
@@ -25,7 +25,7 @@ AI 부업을 검색하는 사람은 먼저 이름을 본다. Outlier, DataAnnota
 
 | 1주차 글감 | 넣을 자료 | 목적 |
 | --- | --- | --- |
-| Outlier·DataAnnotation 시작 전, 한국어 작업과 심사 흐름 보기 | Outlier, DataAnnotation, Alignerr 화면 | 검색 유입 |
+| AI 데이터 라벨링 부업 팁, Outlier·DataAnnotation 한국어 작업 조건 확인 | Outlier, DataAnnotation, Alignerr 화면 | 검색 유입 |
 | 애드센스 승인 전 체크리스트 | AdSense 화면, sitemap 점검표 | 운영 기준 |
 | 바이브 코딩 도구 확인 | Cursor, v0 화면 | 다음 주 납품물 글로 연결 |
 

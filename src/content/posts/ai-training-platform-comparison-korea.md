@@ -1,5 +1,5 @@
 ---
-title: "Outlier·DataAnnotation 시작 전, 한국어 작업과 심사 흐름 보기"
+title: "AI 데이터 라벨링 부업 팁, Outlier·DataAnnotation 한국어 작업 조건 확인"
 published: 2026-06-10
 updated: 2026-06-10
 description: "Outlier, DataAnnotation, Alignerr, Mindrift 화면을 직접 보며 공개 일감, 심사, 한국어 작업, 코딩 여부를 차분히 따져본 후기."

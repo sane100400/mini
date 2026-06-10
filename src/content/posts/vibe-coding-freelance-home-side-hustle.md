@@ -1,8 +1,8 @@
 ---
-title: "v0와 Cursor로 작은 외주 시작하기, 랜딩페이지부터"
+title: "바이브 코딩 외주 첫 샘플로 1페이지 랜딩페이지를 만들었다"
 published: 2026-06-09
 updated: 2026-06-10
-description: "v0와 Cursor 공개 화면과 작업 흐름을 보며 1페이지 랜딩페이지, 계산기, 문의 폼, README부터 외주 범위를 잡는 방법."
+description: "바이브 코딩 외주를 준비할 때 v0와 Cursor 공개 화면을 보고 1페이지 랜딩페이지, 계산기, 문의 폼, README부터 범위를 정리한 글."
 image: "./images/cursor-home-screen.jpg"
 tags: ["바이브코딩", "AI개발", "재택프리랜서", "Cursor", "v0"]
 category: "바이브코딩"

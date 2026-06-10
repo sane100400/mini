@@ -1,5 +1,5 @@
 ---
-title: "Notion·Canva 템플릿은 쓰는 장면이 팔린다"
+title: "AI 템플릿 판매는 Notion·Canva 파일보다 사용 장면이 먼저다"
 published: 2026-06-02
 updated: 2026-06-10
 description: "Notion과 Canva 템플릿을 많이 만들기 전에 한국어 사용 장면, 예시 데이터, 미리보기, 판매 페이지 문구를 정하는 방법."
