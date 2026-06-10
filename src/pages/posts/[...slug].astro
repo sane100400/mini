@@ -27,20 +27,73 @@ const { Content, headings } = await entry.render();
 
 const { remarkPluginFrontmatter } = await entry.render();
 const postUrl = new URL(getPostUrlBySlug(entry.slug), Astro.site).toString();
-const jsonLdImageUrl = new URL(url("/og-image.jpg"), Astro.site).toString();
+const defaultImageUrl = new URL(url("/og-image.jpg"), Astro.site).toString();
+const localImages = import.meta.glob<ImageMetadata>("../../content/posts/**", {
+	import: "default",
+});
+const toAbsoluteUrl = (pathname: string) => {
+	if (pathname.startsWith("http://") || pathname.startsWith("https://")) {
+		return pathname;
+	}
+
+	const pathWithBase = pathname.startsWith(import.meta.env.BASE_URL)
+		? pathname
+		: url(pathname);
+	return new URL(pathWithBase, Astro.site).toString();
+};
+
+let postImageUrl = defaultImageUrl;
+let postImageWidth = 1200;
+let postImageHeight = 630;
+
+if (entry.data.image) {
+	if (
+		entry.data.image.startsWith("http://") ||
+		entry.data.image.startsWith("https://")
+	) {
+		postImageUrl = entry.data.image;
+	} else if (entry.data.image.startsWith("/")) {
+		postImageUrl = toAbsoluteUrl(entry.data.image);
+	} else {
+		const normalizedImagePath = path
+			.normalize(
+				path.join("../../content/posts/", getDir(entry.id), entry.data.image),
+			)
+			.replace(/\\/g, "/");
+		const imageLoader = localImages[normalizedImagePath];
+		const image = imageLoader ? await imageLoader() : null;
+
+		if (image) {
+			postImageUrl = toAbsoluteUrl(image.src);
+			postImageWidth = image.width;
+			postImageHeight = image.height;
+		}
+	}
+}
 
 const jsonLd = {
-	"@context": "https://schema.org",
 	"@type": "BlogPosting",
+	"@id": `${postUrl}#blogposting`,
 	url: postUrl,
+	mainEntityOfPage: {
+		"@type": "WebPage",
+		"@id": postUrl,
+	},
 	headline: entry.data.title,
 	description: entry.data.description || entry.data.title,
-	image: [jsonLdImageUrl],
+	image: [postImageUrl],
 	keywords: entry.data.tags,
+	articleSection: entry.data.category || undefined,
+	wordCount: remarkPluginFrontmatter.words,
 	author: {
 		"@type": "Person",
 		name: profileConfig.name,
 		url: new URL(url("/"), Astro.site).toString(),
+	},
+	publisher: {
+		"@type": "Person",
+		name: profileConfig.name,
+		url: new URL(url("/about/"), Astro.site).toString(),
 	},
 	datePublished: formatDateToYYYYMMDD(entry.data.published),
 	dateModified: formatDateToYYYYMMDD(
@@ -50,9 +103,50 @@ const jsonLd = {
 		? entry.data.lang.replace("_", "-")
 		: siteConfig.lang.replace("_", "-"),
 };
+const breadcrumbJsonLd = {
+	"@type": "BreadcrumbList",
+	itemListElement: [
+		{
+			"@type": "ListItem",
+			position: 1,
+			name: siteConfig.title,
+			item: new URL(url("/"), Astro.site).toString(),
+		},
+		{
+			"@type": "ListItem",
+			position: 2,
+			name: entry.data.category || "Posts",
+			item: new URL(url("/archive/"), Astro.site).toString(),
+		},
+		{
+			"@type": "ListItem",
+			position: 3,
+			name: entry.data.title,
+			item: postUrl,
+		},
+	],
+};
+const structuredData = {
+	"@context": "https://schema.org",
+	"@graph": [jsonLd, breadcrumbJsonLd],
+};
 ---
-<MainGridLayout banner={entry.data.image} title={entry.data.title} description={entry.data.description} lang={entry.data.lang} setOGTypeArticle={true} headings={headings}>
-    <script is:inline slot="head" type="application/ld+json" set:html={JSON.stringify(jsonLd)}></script>
+<MainGridLayout
+	banner={entry.data.image}
+	title={entry.data.title}
+	description={entry.data.description}
+	lang={entry.data.lang}
+	setOGTypeArticle={true}
+	image={postImageUrl}
+	imageAlt={entry.data.title}
+	imageWidth={postImageWidth}
+	imageHeight={postImageHeight}
+	publishedTime={entry.data.published.toISOString()}
+	modifiedTime={(entry.data.updated || entry.data.published).toISOString()}
+	tags={entry.data.tags}
+	headings={headings}
+>
+    <script is:inline slot="head" type="application/ld+json" set:html={JSON.stringify(structuredData)}></script>
     <div class="flex w-full rounded-[var(--radius-large)] overflow-hidden relative mb-4">
         <div id="post-container" class:list={["card-base z-10 px-6 md:px-9 pt-6 pb-4 relative w-full ",
             {}
