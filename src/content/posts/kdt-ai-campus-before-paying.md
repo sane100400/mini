@@ -1,7 +1,6 @@
 ---
 title: "AI 강의 결제 전에 KDT AI 캠퍼스부터 확인해야 하는 이유"
 published: 2026-06-13
-draft: true
 description: "유료 AI 강의를 결제하기 전에 국비지원 KDT AI 캠퍼스의 훈련비 전액 지원과 월 최대 80만 원 훈련수당부터 확인해야 하는 이유, 그리고 KDT가 안 맞는 사람을 구분한 글."
 tags: ["KDT", "국비교육", "내일배움카드", "AI교육", "AI부업"]
 category: "국비교육"
