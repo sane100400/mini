@@ -11,10 +11,6 @@ category: "국비교육"
 
 AI 부업이나 이직을 알아보다 보면 수십만 원짜리 AI 강의 결제 화면 앞까지 가게 된다. 나도 그 화면까지 가봤다. 그런데 결제 전에 확인할 게 있다. 비슷한 내용을 국비로, 그것도 수당을 받으면서 배우는 길이 열려 있다.
 
-![고용노동부 KDT AI 캠퍼스 보도자료 화면](./images/screenshots/moel-kdt-ai-campus.png)
-
-_출처: [고용노동부 KDT AI 캠퍼스 참여기관 확정 보도자료](https://www.moel.go.kr/news/enews/report/enewsView.do?news_seq=19240) 화면 직접 캡처_
-
 ## KDT AI 캠퍼스가 뭔가
 
 고용노동부가 2026년 KDT AI 캠퍼스 참여기관 44개소를 확정했고, 5월부터 수강생 모집이 시작됐다. 양성 목표 직군은 네 가지다.

@@ -11,10 +11,6 @@ category: "AI 도구비교"
 
 글쓰기 부업을 시작하면 셋 중 뭘 구독할지 고민하게 된다. 블로그 원고 대행, 상세페이지 문구, 전자책, 숏폼 대본 같은 한국어 글 작업 기준으로 정리한다. 미리 적어두면, 셋 다 결제하는 건 거의 항상 손해다. 하나를 고르는 글이다.
 
-![ChatGPT, Claude, Google AI 가격 화면 비교](./images/screenshots/ai-writing-tools-pricing-comparison.png)
-
-_출처: OpenAI ChatGPT 가격 페이지 화면 캡처(사용자 제공), [Claude 가격](https://claude.com/pricing), [Google AI 플랜](https://one.google.com/about/google-ai-plans/) 화면 직접 캡처_
-
 ## 플랜과 가격 구조
 
 | 도구 | 무료 | 유료 시작점 |
@@ -28,10 +24,6 @@ _출처: OpenAI ChatGPT 가격 페이지 화면 캡처(사용자 제공), [Claud
 ![Claude 가격 페이지 화면](./images/screenshots/claude-pricing.png)
 
 _출처: [Claude 가격](https://claude.com/pricing) 화면 직접 캡처_
-
-![Google AI 플랜 화면](./images/screenshots/google-ai-plans.png)
-
-_출처: [Google AI 플랜](https://one.google.com/about/google-ai-plans/) 화면 직접 캡처_
 
 ## 작업 유형별로 가르는 게 빠르다
 
