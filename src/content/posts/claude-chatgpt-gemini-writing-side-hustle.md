@@ -2,6 +2,7 @@
 title: "Claude vs ChatGPT vs Gemini, 글쓰기 부업에는 뭐가 나을까"
 published: 2026-06-14
 description: "글쓰기 부업 기준으로 Claude, ChatGPT, Gemini 중 하나만 구독한다면 무엇을 고를지, 작업 유형별로 판단 기준을 나눠 적은 글."
+image: "./images/screenshots/ai-writing-tools-pricing-comparison-thumb.png"
 tags: ["Claude", "ChatGPT", "Gemini", "AI도구", "글쓰기부업"]
 category: "AI 도구비교"
 ---
@@ -9,6 +10,10 @@ category: "AI 도구비교"
 플랜 구성과 가격은 2026년 6월 14일 각 사 공식 페이지 기준이다. 세 도구 모두 요금제와 기능이 자주 바뀌니 결제 전에 공식 페이지를 다시 확인하자.
 
 글쓰기 부업을 시작하면 셋 중 뭘 구독할지 고민하게 된다. 블로그 원고 대행, 상세페이지 문구, 전자책, 숏폼 대본 같은 한국어 글 작업 기준으로 정리한다. 미리 적어두면, 셋 다 결제하는 건 거의 항상 손해다. 하나를 고르는 글이다.
+
+![ChatGPT, Claude, Google AI 가격 화면 비교](./images/screenshots/ai-writing-tools-pricing-comparison.png)
+
+_출처: OpenAI ChatGPT 가격 페이지 화면 캡처(사용자 제공), [Claude 가격](https://claude.com/pricing), [Google AI 플랜](https://one.google.com/about/google-ai-plans/) 화면 직접 캡처_
 
 ## 플랜과 가격 구조
 
@@ -19,6 +24,14 @@ category: "AI 도구비교"
 | Gemini | Free | AI Plus, AI Pro, AI Ultra 계열 |
 
 셋 다 무료 구간이 있고, 개인 유료는 월 20달러 안팎에서 시작하는 구조가 비슷하다. 그래서 가격으로는 승부가 안 나고, 내 작업과의 궁합으로 갈린다.
+
+![Claude 가격 페이지 화면](./images/screenshots/claude-pricing.png)
+
+_출처: [Claude 가격](https://claude.com/pricing) 화면 직접 캡처_
+
+![Google AI 플랜 화면](./images/screenshots/google-ai-plans.png)
+
+_출처: [Google AI 플랜](https://one.google.com/about/google-ai-plans/) 화면 직접 캡처_
 
 ## 작업 유형별로 가르는 게 빠르다
 

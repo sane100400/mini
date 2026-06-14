@@ -12,11 +12,19 @@ category: "운영일지"
 
 그래서 운영표의 기준을 바꿨다. 글 개수가 아니라 정보의 깊이로. 첫 주에는 플랫폼과 도구 화면을 직접 살피고, 둘째 주에는 팔 수 있는 작은 작업을 정리하고, 셋째 주에는 포트폴리오와 판매 글로 잇고, 넷째 주에는 Search Console을 보면서 제목을 고친다. 한 달을 이렇게 네 단계로 나눈 기록이다.
 
+![Google Search Console 소개 화면](./images/screenshots/google-search-console-about.png)
+
+_출처: [Google Search Console](https://search.google.com/search-console/about) 화면 직접 캡처_
+
 ## 첫 주: 플랫폼 화면부터 모았다
 
 AI 부업을 검색하는 사람은 먼저 이름을 본다. Outlier, DataAnnotation, Alignerr, Mindrift. 어디선가 이 이름을 듣고 들어온다. 블로그가 할 일은 그 이름들을 또 한 번 나열하는 게 아니라, 가입 전에 뭘 확인해야 하는지 정리해주는 것이다.
 
 그래서 첫 주에는 플랫폼 공식 화면을 직접 캡처하면서 한국어 작업 조건을 확인하는 글, 애드센스 승인 전 체크리스트, 바이브 코딩 도구(Cursor, v0) 확인 글을 썼다. 첫 주에 전자책, 숏폼, 스마트스토어까지 다 깊게 쓰려고 하면 방향이 흐려진다. 먼저 "이 블로그는 실제 화면과 작은 결과물로 AI 부업을 검토한다"는 기준 자체를 보여주는 게 중요했다.
+
+![Outlier 공개 기회 화면](./images/outlier-opportunities-screen.jpg)
+
+_출처: [Outlier](https://outlier.ai/) 화면 직접 캡처_
 
 ## 둘째 주: 바로 팔 수 있는 작은 작업을 골랐다
 
@@ -29,6 +37,10 @@ AI 부업을 검색하는 사람은 먼저 이름을 본다. Outlier, DataAnnota
 셋째 주에는 "할 수 있다"는 말을 결과물로 바꿨다. AI 부업 포트폴리오는 화려할 필요가 없다. 블로그 글 한 편(제목을 좁힌 과정과 공식 화면 포함), 숏폼 대본 한 묶음(후킹·본문·CTA·자막 문장), 상세페이지 문구 전후 비교 하나. 작아도 끝까지 만든 결과물 3개면 시작이 된다. 바이브 코딩 쪽은 배포 링크와 GitHub, README가 있는 랜딩페이지 하나를 추가했다.
 
 이 주간에는 전자책과 템플릿도 같이 봤다. 전자책을 만든다면 업데이트 로그와 번들 구성을 글로 남기고, Notion·Canva 템플릿을 만든다면 사용 장면과 예시 데이터를 정리하는 식으로, 판매로 이어지는 길을 미리 깔아뒀다.
+
+![GitHub Pages 문서 화면](./images/screenshots/github-pages-docs.png)
+
+_출처: [GitHub Pages 문서](https://docs.github.com/pages) 화면 직접 캡처_
 
 ## 넷째 주: 조회수보다 검색 질문을 봤다
 

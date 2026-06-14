@@ -2,6 +2,7 @@
 title: "ChatGPT 유료 결제, 블로그 운영자에게 월 비용이 남는 경우"
 published: 2026-06-14
 description: "블로그 운영자가 ChatGPT 유료 플랜을 결제하기 전에 무료로 버텨지는 작업량과 결제가 회수되는 작업량을 나눠서 판단하는 기준을 적은 글."
+image: "./images/screenshots/chatgpt-pricing-user-thumb.png"
 tags: ["ChatGPT", "AI도구", "구독료", "블로그운영", "AI부업"]
 category: "AI 도구비교"
 ---
@@ -9,6 +10,10 @@ category: "AI 도구비교"
 가격과 플랜 구성은 2026년 6월 14일 OpenAI 공식 페이지 기준이다. AI 도구 요금제는 자주 바뀌니 결제 전에 공식 가격 페이지를 다시 확인하자.
 
 블로그를 운영하다 보면 ChatGPT 결제 화면 앞에서 한 번은 멈추게 된다. 무료로도 되는 것 같은데, 유료로 가면 뭐가 달라지나. 이 글은 기능 비교가 아니라 돈 계산이다. 블로그 운영자 기준으로 월 구독료가 남는 경우와 아닌 경우를 나눠본다.
+
+![ChatGPT 가격 페이지 화면](./images/screenshots/chatgpt-pricing-user.png)
+
+_출처: OpenAI ChatGPT 가격 페이지 화면 캡처(사용자 제공, 2026-06-14)_
 
 ## 플랜 구성부터
 
@@ -46,6 +51,10 @@ ChatGPT는 발행일 기준 Free, Go, Plus, Pro에 업무용 Business, Enterpris
 남는 사람은 이렇다. 매일 발행 루틴이 돌아가고 있거나, 원고 대행·상세페이지 같은 납기 있는 일감을 받고 있거나, 키워드 조사를 매일 돌려서 한도가 실제로 마르는 사람.
 
 아닌 사람도 분명하다. 발행이 주 1~2회 이하인 사람, 아직 블로그 방향을 잡는 중이라 글보다 고민이 많은 사람, 그리고 이미 다른 AI 구독을 쓰고 있는 사람. 마지막 경우는 두 개를 결제하기 전에 [Claude vs ChatGPT vs Gemini 비교 글](/posts/claude-chatgpt-gemini-writing-side-hustle/)에서 하나로 줄일 여지가 있는지 먼저 보자.
+
+![ChatGPT, Claude, Google AI 가격 화면 비교](./images/screenshots/ai-writing-tools-pricing-comparison.png)
+
+_출처: OpenAI ChatGPT 가격 페이지 화면 캡처(사용자 제공), [Claude 가격](https://claude.com/pricing), [Google AI 플랜](https://one.google.com/about/google-ai-plans/) 화면 직접 캡처_
 
 키워드 조사에 AI를 쓰는 구체적인 방법은 [애드센스 키워드 조사 글](/posts/adsense-keyword-research-ai-side-hustle/)에서 다뤘다. 무료 한도로 그 루틴을 먼저 돌려보고, 막히는 지점이 오면 그때 결제해도 늦지 않다.
 

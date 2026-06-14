@@ -12,6 +12,10 @@ category: "애드센스"
 
 그래서 방법을 바꿨다. 정보성 블로그 제목을 1,100개 정도 모아서 훑어봤는데, 잘 읽히는 제목에는 패턴이 있었다. "~전에 확인할 것", "~하는 이유", "~후기", "~체크". 단순 추천형이 아니라 어딘가에서 막힌 사람을 위한 제목들이다. 여기서 가져올 건 형식이 아니라 관점이었다. 글감은 키워드가 아니라 검색자가 막히는 장면에서 나온다.
 
+![Google 유용한 콘텐츠 가이드 화면](./images/screenshots/google-helpful-content-guide.png)
+
+_출처: [Google Search Central 유용한 콘텐츠 가이드](https://developers.google.com/search/docs/fundamentals/creating-helpful-content) 화면 직접 캡처_
+
 ## 검색자가 실제로 묻는 말을 먼저 적는다
 
 "Outlier"라는 키워드를 그대로 쓰면 플랫폼 소개글이 된다. 그런데 Outlier를 검색하는 사람이 정말 궁금한 건 소개가 아니다. 지금 가입해도 일감이 있는지, 한국어로 가능한지, 심사는 어떻게 준비하는지다. 이 막힌 지점을 잡으면 같은 키워드에서 전혀 다른 글이 나온다.
@@ -30,11 +34,19 @@ category: "애드센스"
 
 상단 대표 이미지는 [Google Search Central의 유용한 콘텐츠 문서](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)를 캡처한 것이다. 이 문서는 검색엔진이 아니라 사람에게 도움이 되는 콘텐츠를 먼저 만들라고 안내하는데, 읽다 보면 그 자체가 글감 목록이다.
 
+![Google Search Console 소개 화면](./images/screenshots/google-search-console-about.png)
+
+_출처: [Google Search Console](https://search.google.com/search-console/about) 화면 직접 캡처_
+
 "사람 우선 콘텐츠"라는 항목을 보면 'AI 초안을 그대로 올리면 왜 얕아지는가'라는 글이 떠오르고, 자체 점검 질문 목록을 보면 '발행 전 체크리스트'가 떠오른다. 검색엔진 우선 콘텐츠에 대한 경고를 보면 '제목 낚시를 피하는 법'이 나온다. "AI 부업은 돈이 됩니다"에서 멈추면 글이 얕은데, 공식 문서를 한 번 거치면 질문이 "이 글이 검색자의 문제를 실제로 해결하는가"로 바뀐다.
 
 ## 공개 마켓에서 수요를 본다
 
 공식 문서가 콘텐츠의 기준을 보여준다면, 공개 마켓 화면은 사람들이 실제로 뭘 사고파는지 보여준다. [크몽](https://kmong.com/)에 들어가 보면 전자책, 마케팅, IT·프로그래밍, AI 서비스 카테고리가 나란히 있다. 전자책 카테고리를 보면 업데이트 로그와 번들 구성이 글감이 되고, 마케팅 카테고리를 보면 블로그 원고 대행과 상세페이지 문구가 글감이 된다.
+
+![크몽 마켓 화면](./images/kmong-marketplace-screen.jpg)
+
+_출처: [크몽](https://kmong.com/) 화면 직접 캡처_
 
 이렇게 보면 애드센스 글감이 혼자 떨어져 있지 않다는 게 보인다. 블로그 글 하나가 검색 유입을 만들고, 그 글에서 전자책이나 포트폴리오 글로 넘어가고, 다시 문의나 판매 페이지로 이어진다. 글감을 고를 때부터 이 연결을 생각하면 글이 따로 놀지 않는다.
 

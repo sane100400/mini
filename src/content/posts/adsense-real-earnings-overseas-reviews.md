@@ -12,6 +12,10 @@ category: "애드센스"
 
 이 글은 승인 직후의 기대치를 현실적으로 잡기 위해 정리한 계산 메모다. [Google AdSense 도움말의 RPM 설명](https://support.google.com/adsense/answer/190515)과 지급 기준액, 무효 트래픽 안내를 기준으로 삼았다.
 
+![AdSense RPM 도움말 화면](./images/screenshots/google-adsense-rpm-help.png)
+
+_출처: [Google AdSense RPM 도움말](https://support.google.com/adsense/answer/190515) 화면 직접 캡처_
+
 ## RPM 계산식 자체는 단순하다
 
 Google은 RPM을 "예상 수입을 노출수나 페이지 조회수 1,000회 기준으로 환산한 지표"로 설명한다. 페이지 RPM으로 단순화하면 이렇다. 예상 수입을 페이지뷰로 나누고 1,000을 곱한다. 페이지 RPM이 4달러라면, 페이지뷰 1,000회당 4달러쯤 들어온다는 뜻이다.
@@ -33,6 +37,10 @@ Google은 RPM을 "예상 수입을 노출수나 페이지 조회수 1,000회 기
 
 그래서 단계별로 볼 것을 다르게 잡았다. 방문자가 거의 없을 때는 색인 상태와 글 추가가 먼저다. 하루 100~300 페이지뷰쯤 되면 광고 노출과 모바일 UX를 관찰하고, 하루 1,000을 넘기면 그제야 글별 RPM과 CTR, 체류 시간을 본다. 초보 블로그의 첫 목표는 월 100만 원이 아니다. 광고가 정상 노출되는지, 어떤 글에서 검색 유입이 생기는지, 모바일에서 광고가 글 읽기를 방해하지 않는지 확인하는 것이다.
 
+![Google AdSense 시작 페이지 화면](./images/google-adsense-start-screen.jpg)
+
+_출처: [Google AdSense](https://www.google.com/adsense/start/) 화면 직접 캡처_
+
 ## 지급 기준액을 모르면 수익을 착각한다
 
 대시보드에 몇 달러가 찍혔다고 바로 통장에 들어오는 게 아니다. [Google의 지급 기준액 표](https://support.google.com/adsense/answer/1709871)를 보면 USD 기준 지급 기준액은 100달러다. 100달러가 쌓일 때까지는 이월된다. [지급 일정 문서](https://support.google.com/adsense/answer/7164703)와 결제 정보 설정, 지급 보류 여부도 같이 확인해야 한다.
@@ -48,6 +56,10 @@ Google은 RPM을 "예상 수입을 노출수나 페이지 조회수 1,000회 기
 ## 첫 30일은 돈 세는 기간이 아니라 데이터 쌓는 기간
 
 승인 후 첫 달의 내 계획은 이렇다. 1주차에는 ads.txt와 자동 광고가 정상 동작하는지, 모바일에서 광고 위치가 괜찮은지 확인한다. 2주차에는 검색 유입용 글을 추가하면서 Search Console 노출과 색인 상태를 본다. 3주차에는 글별 페이지뷰와 체류, 내부 링크 클릭을 보고, 4주차에 유입 검색어와 글별 RPM 차이를 보면서 다음 달 글감을 정한다.
+
+![Google Search Console 소개 화면](./images/screenshots/google-search-console-about.png)
+
+_출처: [Google Search Console](https://search.google.com/search-console/about) 화면 직접 캡처_
 
 이 블로그에서는 승인 후 수익을 과장하지 않으려고 한다. 해외 후기 숫자는 참고만 하고, 실제로는 내 글의 검색 유입과 체류를 본다. 애드센스는 독자가 들어올 이유가 있는 글 위에 얹는 기본 수익층이지, 그 자체가 목적이 되면 순서가 꼬인다.
 

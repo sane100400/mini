@@ -2,6 +2,7 @@
 title: "AI 강의 결제 전에 KDT AI 캠퍼스부터 확인해야 하는 이유"
 published: 2026-06-13
 description: "유료 AI 강의를 결제하기 전에 국비지원 KDT AI 캠퍼스의 훈련비 전액 지원과 월 최대 80만 원 훈련수당부터 확인해야 하는 이유, 그리고 KDT가 안 맞는 사람을 구분한 글."
+image: "./images/screenshots/moel-kdt-ai-campus-thumb.png"
 tags: ["KDT", "국비교육", "내일배움카드", "AI교육", "AI부업"]
 category: "국비교육"
 ---
@@ -9,6 +10,10 @@ category: "국비교육"
 이 글은 2026년 6월 13일에 고용노동부 보도자료를 확인하고 정리했다. 과정별 모집 일정과 수당 조건은 훈련기관마다 다르니 HRD-Net에서 실제 공고를 확인해야 한다.
 
 AI 부업이나 이직을 알아보다 보면 수십만 원짜리 AI 강의 결제 화면 앞까지 가게 된다. 나도 그 화면까지 가봤다. 그런데 결제 전에 확인할 게 있다. 비슷한 내용을 국비로, 그것도 수당을 받으면서 배우는 길이 열려 있다.
+
+![고용노동부 KDT AI 캠퍼스 보도자료 화면](./images/screenshots/moel-kdt-ai-campus.png)
+
+_출처: [고용노동부 KDT AI 캠퍼스 참여기관 확정 보도자료](https://www.moel.go.kr/news/enews/report/enewsView.do?news_seq=19240) 화면 직접 캡처_
 
 ## KDT AI 캠퍼스가 뭔가
 
@@ -52,6 +57,10 @@ KDT AI 캠퍼스라는 이름이 같아도 과정은 기관마다 다르다. 신
 - 수료생 취업 실적이 공개되어 있는지
 
 "전액 지원"이라는 말만 보고 신청하면 과정 중반에 자기와 안 맞는 커리큘럼을 발견하게 된다. 몇 달짜리 과정은 돈이 아니라 시간이 비용이다.
+
+![HRD-Net 나의 고용서비스 화면](./images/screenshots/hrd-net-home.png)
+
+_출처: [HRD-Net](https://www.hrd.go.kr/) 화면 직접 캡처_
 
 ## 결제 전 판단 순서
 

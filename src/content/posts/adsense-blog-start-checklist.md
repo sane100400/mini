@@ -12,6 +12,10 @@ category: "애드센스"
 
 그래서 신청 버튼을 누르기 전에, 내 블로그를 처음 방문한 사람의 눈으로 처음부터 끝까지 훑어봤다. 그 과정에서 고친 것들을 순서대로 적어둔다.
 
+![Google AdSense 시작 페이지 화면](./images/google-adsense-start-screen.jpg)
+
+_출처: [Google AdSense](https://www.google.com/adsense/start/) 화면 직접 캡처_
+
 ## 주제를 한 문장으로 말할 수 있는가
 
 가장 먼저 막힌 게 이거였다. "이 블로그 무슨 블로그예요?"라는 질문에 한 문장으로 답이 안 나오면, 검색엔진이나 심사 담당자에게도 똑같이 흐릿하게 보일 것이다.
@@ -26,11 +30,19 @@ category: "애드센스"
 
 그래서 글마다 최소한 하나는 넣기로 했다. 공식 서비스 화면 캡처(AdSense, Outlier, CapCut 같은), 공개 마켓 화면(크몽, Gumroad), 아니면 직접 만든 샘플. 이 글 상단의 대표 이미지도 Google AdSense 시작 페이지를 직접 캡처한 것이다. 애드센스 글에는 애드센스 화면이, 숏폼 글에는 CapCut 화면이 들어가야 정보 글로 보인다. 분위기용 스톡 이미지는 자리만 차지한다. 이미지는 장식이 아니라 근거다.
 
+![Google 유용한 콘텐츠 가이드 화면](./images/screenshots/google-helpful-content-guide.png)
+
+_출처: [Google Search Central 유용한 콘텐츠 가이드](https://developers.google.com/search/docs/fundamentals/creating-helpful-content) 화면 직접 캡처_
+
 ## sitemap과 robots.txt 주소를 직접 열어봤다
 
 검색엔진이 내 사이트 구조를 제대로 찾아가는지도 신청 전에 확인했다. 이 블로그는 Astro로 만들어서 `src/pages/rss.xml.ts`, `src/pages/robots.txt.ts`, sitemap 설정이 코드로 들어가 있다. 설정이 있다는 것과 실제로 동작한다는 건 다른 얘기라서, 브라우저 주소창에 하나씩 쳐봤다.
 
 `/rss.xml`에 최신 글이 들어오는지, `/robots.txt`가 크롤러를 과하게 막고 있지 않은지, sitemap에 글 URL이 빠짐없이 잡히는지. [Google Search Central의 sitemap 안내](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap)를 보면 robots.txt에 sitemap 위치를 적어두라는 내용도 있다.
+
+![Google Search Console 소개 화면](./images/screenshots/google-search-console-about.png)
+
+_출처: [Google Search Console](https://search.google.com/search-console/about) 화면 직접 캡처_
 
 하나 주의할 점. [robots.txt 문서](https://developers.google.com/search/docs/crawling-indexing/robots/intro)를 읽어보면 이 파일은 크롤러 트래픽을 관리하는 용도지, 비공개 파일을 숨기는 보안 장치가 아니다. 검색에 노출되어도 괜찮은 글만 발행한다는 전제가 먼저다.
 
