@@ -1,7 +1,6 @@
 ---
 title: "Claude vs ChatGPT vs Gemini, 글쓰기 부업에는 뭐가 나을까"
 published: 2026-06-14
-draft: true
 description: "글쓰기 부업 기준으로 Claude, ChatGPT, Gemini 중 하나만 구독한다면 무엇을 고를지, 작업 유형별로 판단 기준을 나눠 적은 글."
 tags: ["Claude", "ChatGPT", "Gemini", "AI도구", "글쓰기부업"]
 category: "AI 도구비교"

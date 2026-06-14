@@ -1,7 +1,6 @@
 ---
 title: "ChatGPT 유료 결제, 블로그 운영자에게 월 비용이 남는 경우"
 published: 2026-06-14
-draft: true
 description: "블로그 운영자가 ChatGPT 유료 플랜을 결제하기 전에 무료로 버텨지는 작업량과 결제가 회수되는 작업량을 나눠서 판단하는 기준을 적은 글."
 tags: ["ChatGPT", "AI도구", "구독료", "블로그운영", "AI부업"]
 category: "AI 도구비교"
