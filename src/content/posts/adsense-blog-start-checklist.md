@@ -52,11 +52,23 @@ _출처: [Google Search Console](https://search.google.com/search-console/about)
 
 솔직히 정책 페이지가 있다고 바로 승인되는 건 아닐 것이다. 그래도 없으면 확실히 허술해 보인다. 글 품질과 기본 페이지는 따로가 아니라 같이 가는 문제다.
 
+## 정책 페이지를 실제로 어떻게 만들까
+
+개인정보처리방침 페이지를 처음 만들 때 고민이 생긴다. 법적으로 복잡한 내용처럼 느껴지기 때문이다. 하지만 애드센스 블로그 수준에서는 몇 가지 핵심 사항만 명시하면 된다.
+
+쿠키 사용 여부와 목적, Google Analytics나 AdSense 사용 여부, 데이터 수집 방식, 방문자 권리(쿠키 거부 방법). 이 네 가지를 솔직하게 적으면 된다. 완벽한 법적 문서보다 "이 사이트는 Google AdSense를 통해 광고를 게재하며, 이에 따라 쿠키가 사용됩니다"처럼 명확하게 적는 게 낫다.
+
 ## 첫 30개 글에는 서로 다른 질문을 맡겼다
 
 글 개수를 숫자로만 채우면 비슷한 글이 늘어난다. 제목만 다르고 본문이 같은 글 다섯 개보다, 쓰임이 다른 글 다섯 개가 사이트를 두껍게 만든다.
 
 내가 나눈 쓰임은 다섯 가지다. 검색 유입을 만드는 글(플랫폼 한국어 작업 조건 확인 같은), 비교 판단을 돕는 글(플랫폼별 심사·일감·언어 조건), 실무 샘플을 보여주는 글(포트폴리오 샘플 3개), 수익으로 연결하는 글(전자책 업데이트 로그), 그리고 운영 기록(30일 운영표). 승인 전 글 개수가 10개냐 30개냐에 정답은 없지만, 각 글이 서로 다른 질문에 답하고 있는지에는 답이 있다.
+
+## 내부 링크 구조가 생각보다 중요하다
+
+글이 20~30편 쌓이면 내부 링크를 빠뜨리기 쉽다. 그런데 내부 링크는 검색엔진이 사이트 구조를 파악하는 데도 도움이 되고, 방문자가 관련 글을 찾아보는 데도 도움이 된다.
+
+내가 쓰는 방식은 글 하나를 발행할 때마다 이 글과 연결될 수 있는 기존 글 2~3개에 링크를 추가하는 것이다. 단방향이 아니라 상호 링크로 만들면 더 좋다. "이 주제가 궁금하다면 [관련 글] 참고"라는 한 문장이 독자 이탈을 줄이고 체류 시간을 높인다.
 
 ## 모바일에서 한 번 더 봤다
 
@@ -73,7 +85,17 @@ _출처: [Google Search Console](https://search.google.com/search-console/about)
 | 공식 화면이나 직접 만든 샘플이 있는가 | AdSense, Outlier, CapCut, Cursor 캡처 사용 |
 | 기본 페이지와 sitemap이 있는가 | 소개, privacy, RSS, robots.txt 확인 |
 | 다음 글로 이어지는 내부 링크가 있는가 | 애드센스, 포트폴리오, 전자책 글 연결 |
+| 모바일에서 표와 이미지가 깨지지 않는가 | 발행 전 폰으로 확인 |
+| 개인정보처리방침 페이지가 있는가 | AdSense, Analytics 사용 명시 |
+
+## 승인 후에도 점검을 이어가야 한다
+
+승인이 났다고 끝이 아니다. ads.txt 파일이 정상적으로 배포되어 있는지 확인해야 하고, 광고 배치가 글 읽기를 방해하지 않는지도 봐야 한다. 자동 광고를 쓴다면 어디에 어떻게 배치되는지 모바일에서 한 번 더 확인한다.
+
+그리고 무효 트래픽 관련해서 주의할 것들은 승인 후에도 이어진다. 광고를 눌러보고 싶은 유혹, 지인에게 클릭을 부탁하는 것, 광고를 버튼처럼 보이게 배치하는 것. 초반 수익이 작더라도 계정이 흔들리면 전부 손해다.
 
 돌아보면 애드센스 블로그를 시작한다는 건 광고 코드를 붙이는 일이 아니었다. 특정한 문제를 꾸준히 다루는 사이트를 만드는 일이었다. 이 블로그는 집에서 확인 가능한 AI 부업을 실제 화면과 작은 결과물로 검토하는 방향으로 계속 간다.
+
+승인 후 실제 RPM과 페이지뷰 계산 방법은 [애드센스 실제 수익 계산 글](/posts/adsense-real-earnings-overseas-reviews/)에서 이어간다.
 
 참고한 공식 문서: [Google AdSense](https://www.google.com/adsense/start/), [AdSense Program policies](https://support.google.com/adsense/answer/48182), [Google 유용한 콘텐츠 가이드](https://developers.google.com/search/docs/fundamentals/creating-helpful-content), [Google sitemap 안내](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap), [robots.txt 안내](https://developers.google.com/search/docs/crawling-indexing/robots/intro)
